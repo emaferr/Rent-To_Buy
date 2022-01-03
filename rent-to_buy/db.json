@@ -1,0 +1,24 @@
+{
+    "slides": [
+        {
+            "id": 1,
+            "question": "Che cosa è il Rent To Buy?",
+            "reply": "Ferrauto"
+        },
+        {
+            "id": 2,
+            "question": "Che cosa è il Rent To Buy?",
+            "reply": "A"
+        },
+        {
+            "id": 3,
+            "question": "A chie è rivolto il Rent To Buy?",
+            "reply": "B"
+        },
+        {
+            "id": 4,
+            "question": "Perchè conviene il Rent To Buy?",
+            "reply": "C"
+        }
+    ]
+}
