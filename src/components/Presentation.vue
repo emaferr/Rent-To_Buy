@@ -11,7 +11,7 @@
         <div class="slide">
           <h2>{{slide.question}}</h2>
           <p>
-            {{slide.p1}}
+            {{slide.reply}}
           </p>
         </div>
       </div>
@@ -39,12 +39,14 @@
 import SlideServices from "@/services/SlideServices.js";
 
 export default {
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
     return {
       slides: null,
     };
   },
 
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   created() {
     SlideServices.getSlides()
       .then((response) => {
