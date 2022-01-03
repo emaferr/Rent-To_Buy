@@ -3,22 +3,22 @@
         {
             "id": 1,
             "question": "Che cosa è il Rent To Buy?",
-            "reply": "Ferrauto"
+            "reply": "A"
         },
         {
             "id": 2,
-            "question": "Che cosa è il Rent To Buy?",
-            "reply": "A"
+            "question": "Perchè il Rent To Buy?",
+            "reply": "B"
         },
         {
             "id": 3,
             "question": "A chie è rivolto il Rent To Buy?",
-            "reply": "B"
+            "reply": "C"
         },
         {
             "id": 4,
             "question": "Perchè conviene il Rent To Buy?",
-            "reply": "C"
+            "reply": "D"
         }
     ]
 }

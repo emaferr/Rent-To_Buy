@@ -6,8 +6,8 @@
 </template>
 
 <script lang="ts">
-import { Options, Vue } from "vue-class-component"
-import Presentation from "@/components/Presentation.vue"
+import { Options, Vue } from "vue-class-component";
+import Presentation from "@/components/Presentation.vue";
 
 @Options({
   components: {

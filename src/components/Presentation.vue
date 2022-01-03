@@ -7,21 +7,14 @@
     data-pause="hover"
   >
     <div class="carousel-inner">
-      <div class="carousel-item active">
+      <div v-for="slide in slides" :key="slide.id" :class="{active : slide.id == 1}" class="carousel-item">
         <div class="slide">
-          <h2>Che cosa è il Rent to buy?</h2>
+          <h2>{{slide.question}}</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-            laboriosam.
+            {{slide.reply}}
           </p>
         </div>
       </div>
-      <!-- <div class="carousel-item">
-        <h1>Test</h1>
-      </div> -->
-      <!-- <div class="carousel-item">
-        <h1>Test</h1>
-      </div> -->
     </div>
     <button
       class="carousel-control-prev"
@@ -39,14 +32,30 @@
     >
       <b-icon-arrow-right-circle-fill />
     </button>
-    <!-- <button>
-      <b-icon-arrow-right-circle-fill />
-    </button> -->
   </div>
 </template>
 
 <script>
-export default {};
+import SlideServices from "@/services/SlideServices.js";
+
+export default {
+  data() {
+    return {
+      slides: null,
+    };
+  },
+
+  created() {
+    SlideServices.getSlides()
+      .then((response) => {
+        this.slides = response.data;
+        console.log(this.slides);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  },
+}
 </script>
 
 
