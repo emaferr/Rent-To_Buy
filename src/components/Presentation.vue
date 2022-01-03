@@ -11,7 +11,7 @@
         <div class="slide">
           <h2>{{slide.question}}</h2>
           <p>
-            {{slide.reply}}
+            {{slide.p1}}
           </p>
         </div>
       </div>

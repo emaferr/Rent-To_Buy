@@ -2,23 +2,23 @@
     "slides": [
         {
             "id": 1,
-            "question": "Che cosa è il Rent To Buy?",
-            "reply": "A"
+            "question": "DOVE SI TROVANO GLI IMMOBILI ACQUISTABILI CON IL RENT TO BUY",
+            "p1": "Gli immobili in vendita con il Rent to Buy non esistono."
         },
         {
             "id": 2,
             "question": "Perchè il Rent To Buy?",
-            "reply": "B"
+            "p1": "B"
         },
         {
             "id": 3,
             "question": "A chie è rivolto il Rent To Buy?",
-            "reply": "C"
+            "p1": "C"
         },
         {
             "id": 4,
             "question": "Perchè conviene il Rent To Buy?",
-            "reply": "D"
+            "p1": "D"
         }
     ]
 }
