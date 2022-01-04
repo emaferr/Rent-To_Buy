@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>Acquirente</h1>
     <div>
       <p>
         <button
@@ -26,21 +25,35 @@
       </p>
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
-          Some placeholder content for the collapse component. This panel is
+          {{ unit.vantaggi }}
+          <!-- Some placeholder content for the collapse component. This panel is
           hidden by default but revealed when the user activates the relevant
           trigger. Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Magni animi eaque similique, recusandae alias distinctio odit
           voluptates provident, accusamus praesentium eveniet labore. Veniam
           aliquid delectus magnam et minus, expedita blanditiis ducimus enim
-          voluptatum totam, perferendis molestiae minima excepturi sit in!
+          voluptatum totam, perferendis molestiae minima excepturi sit in! -->
         </div>
       </div>
       <div class="collapse my-3" id="collapseExample2">
         <div class="card card-body">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste
-          fugiat illo dicta ducimus id debitis beatae ex voluptatibus fugit!
+          {{ unit.svantaggi }}
+          <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste
+          fugiat illo dicta ducimus id debitis beatae ex voluptatibus fugit! -->
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: "Collapse",
+  props: {
+    unit: {
+      type: Object,
+      required: true,
+    },
+  },
+};
+</script>

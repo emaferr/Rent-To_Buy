@@ -30,5 +30,10 @@
             "reply": "Perderà l'intera somma versata fino a quel momento e l'affittuario rimane il proprietario unico dell'immobile",
             "img": "DISEGNO 4"
         }
-    ]
+    ],
+
+    "lessor": {
+        "vantaggi": "vantaggi lessor",
+        "svantaggi": "svantaggi lessor"
+    }
 }

@@ -28,4 +28,18 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+.btn-lessor {
+  background-color: #42b983;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  opacity: 0.8;
+}
+.btn-lessor:hover {
+  opacity: 1;
+}
+.btn-lessor:active {
+  transform: scale(0.9);
+}
 </style>

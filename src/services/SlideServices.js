@@ -14,4 +14,9 @@ export default {
   getSlides() {
     return apiClient.get("/slides");
   },
+
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+  getLessor() {
+    return apiClient.get("/lessor");
+  },
 };
