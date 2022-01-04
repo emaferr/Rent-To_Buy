@@ -18,7 +18,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img :src="slide.img" alt="">
+          <img v-bind:src="'./assets/' + slide.img"  alt="">
         </div>
       </div>
     </div>
