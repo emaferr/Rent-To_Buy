@@ -8,7 +8,7 @@ import Collapse from "@/components/Collapse.vue";
 import SlideServices from "@/services/SlideServices.js";
 
 export default {
-  name: "Lessor",
+  name: "Lessee",
   components: {
     Collapse,
   },

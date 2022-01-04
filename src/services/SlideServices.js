@@ -22,6 +22,6 @@ export default {
 
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   getLessee() {
-    return apiClient.get("/lessor");
+    return apiClient.get("/lessee");
   },
 };
