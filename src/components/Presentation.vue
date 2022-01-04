@@ -69,7 +69,7 @@ button:hover {
   color: forestgreen;
 }
 .slide{
-  height: 86vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -3,25 +3,31 @@
         {
             "id": 1,
             "question": "cosa è il rent to buy?",
-            "reply": "è un metodo alternativo per comprare casa basato su un contratto in cui si fondono locazione e compravendita!  ",
+            "reply": "È un metodo alternativo per comprare casa basato su un contratto in cui si fondono Locazione e Compravendita!  ",
             "img": "DISEGNO 1"
         },
         {
             "id": 2,
-            "question": "Perchè il Rent To Buy?",
-            "reply": "B",
+            "question": "come funziona?",
+            "reply": "Venditore e Compratore firmano un contratto secondo cui l'immobile in questione cambierà propietario, ad una cifra già stabilità, solo dopo un periodo di tempo concordato dalle parti.",
             "img": "DISEGNO 2"
         },
         {
             "id": 3,
-            "question": "A chie è rivolto il Rent To Buy?",
-            "reply": "C",
+            "question": "Durante questo periodo?",
+            "reply": "Il futuro propietario entrerà nell'abitazione in qualità di inquilino e come tale pagherà mensilmente un canone, che sarà composto da due parti",
             "img": "DISEGNO 3"
         },
         {
             "id": 4,
-            "question": "Perchè conviene il Rent To Buy?",
-            "reply": "D",
+            "question": "Quanto dura il periodo di locazione?",
+            "reply": "Varia dai 5 ai 10 anni e scaduto il termine il conduttore avrà la facoltà ma non l'obbligo, di acquistare l'immobile",
+            "img": "DISEGNO 4"
+        },
+        {
+            "id": 5,
+            "question": "Se l'inquilino non acquista?",
+            "reply": "Perderà l'intera somma versata fino a quel momento e l'affittuario rimane il proprietario unico dell'immobile",
             "img": "DISEGNO 4"
         }
     ]
