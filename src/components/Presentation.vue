@@ -18,7 +18,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img v-bind:src="'./assets/' + slide.img"  alt="">
+          <img :src="slide.img"  alt="">
         </div>
       </div>
     </div>
@@ -43,7 +43,6 @@
 
 <script>
 import SlideServices from "@/services/SlideServices.js";
-
 export default {
   // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
