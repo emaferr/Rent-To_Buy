@@ -26,7 +26,11 @@
       </p>
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
-          {{ soggetto.vantaggi }}
+          <ul>
+            <li v-for="vantaggi in soggetto.vantaggi" :key="vantaggi">
+              {{ vantaggi }}
+            </li>
+          </ul>
         </div>
       </div>
       <div class="collapse my-3" id="collapseExample2">
