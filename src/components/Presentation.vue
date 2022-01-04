@@ -18,7 +18,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img :src="slide.img"  alt="">
+          <img :src="image"  alt="">
         </div>
       </div>
     </div>
@@ -48,6 +48,7 @@ export default {
   data() {
     return {
       slides: null,
+      image: require('@/assets/logo.png')
     };
   },
 
@@ -56,6 +57,9 @@ export default {
     SlideServices.getSlides()
       .then((response) => {
         this.slides = response.data;
+        this.slides.forEach(el => {
+            this.image = require('@/assets/') + el.img
+        });
         console.log(this.slides);
       })
       .catch((error) => {
