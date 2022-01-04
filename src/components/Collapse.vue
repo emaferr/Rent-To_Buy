@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <h1>{{soggeto.name}}</h1>
     <div>
       <p>
         <button
@@ -25,7 +26,7 @@
       </p>
       <div class="collapse" id="collapseExample">
         <div class="card card-body">
-          {{ unit.vantaggi }}
+          {{ soggetto.vantaggi }}
           <!-- Some placeholder content for the collapse component. This panel is
           hidden by default but revealed when the user activates the relevant
           trigger. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -37,7 +38,7 @@
       </div>
       <div class="collapse my-3" id="collapseExample2">
         <div class="card card-body">
-          {{ unit.svantaggi }}
+          {{ soggetto.svantaggi }}
           <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iste
           fugiat illo dicta ducimus id debitis beatae ex voluptatibus fugit! -->
         </div>
@@ -50,7 +51,7 @@
 export default {
   name: "Collapse",
   props: {
-    unit: {
+    soggetto: {
       type: Object,
       required: true,
     },

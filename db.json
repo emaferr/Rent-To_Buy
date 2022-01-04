@@ -33,6 +33,7 @@
     ],
 
     "lessor": {
+        "name": "Venditore",
         "vantaggi": "vantaggi lessor",
         "svantaggi": "svantaggi lessor"
     }
