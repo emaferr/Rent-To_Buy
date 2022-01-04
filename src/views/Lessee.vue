@@ -1,5 +1,5 @@
 <template>
-  <div>
-    <h1>Lessee</h1>
+  <div class="container">
+    <h1>Acquirente</h1>
   </div>
 </template>

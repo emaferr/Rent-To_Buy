@@ -1,6 +1,6 @@
 <template>
   <div id="nav">
-    <router-link :to="{ name: 'Home' }">Home</router-link> |
+    <router-link :to="{ name: 'Home' }">Rent to Buy</router-link> |
     <router-link :to="{ name: 'Lessor' }">Venditore</router-link> |
     <router-link :to="{ name: 'Lessee' }">Acquirente</router-link>
   </div>
