@@ -36,5 +36,11 @@
         "name": "Venditore",
         "vantaggi": "vantaggi lessor",
         "svantaggi": "svantaggi lessor"
+    },
+
+    "lessee": {
+        "name": "Acquirente",
+        "vantaggi": "vantaggi acquirente",
+        "svantaggi": "svantaggi acquirente"
     }
 }

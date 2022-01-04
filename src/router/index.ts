@@ -12,6 +12,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: "/lessor",
     name: "Lessor",
+    props: true,
     component: Lessor,
   },
   {

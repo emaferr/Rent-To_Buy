@@ -1,5 +1,5 @@
 <template>
-  <Collapse :soggetto="soggetto" />
+  <Collapse v-if="soggetto" :key="soggetto.name" :soggetto="soggetto" />
 </template>
 
 
@@ -8,7 +8,7 @@ import Collapse from "@/components/Collapse.vue";
 import SlideServices from "@/services/SlideServices.js";
 
 export default {
-  name: "Home",
+  name: "Lessor",
   components: {
     Collapse,
   },
@@ -24,7 +24,7 @@ export default {
     SlideServices.getLessor()
       .then((response) => {
         this.soggetto = response.data;
-        console.log(this.soggetto);
+        console.log(response.data);
       })
       .catch((error) => {
         console.log(error);
