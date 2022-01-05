@@ -34,6 +34,7 @@
 
     "lessor": {
         "name": "Venditore",
+        "img": "lessor.png",
         "vantaggi": [
             "Mantiene la proprietà dell’alloggio sino a che non venga pagato l’intero prezzo convenuto.",
             "Riceve un beneficio economico a fronte del rinvio nel tempo della vendita, costituito dal diritto all’incasso del canone nella sua duplice componente.",
@@ -50,6 +51,7 @@
 
     "lessee": {
         "name": "Acquirente",
+        "img": "lassee.png",
         "vantaggi": [
             "Potrà opporre ai terzi l’obbligo assunto dal proprietario di vendergli il bene, dovendo il rent to buy essere trascritto.",
             "Non avrà nessun obbligo, ma solo diritto all’acquisto del bene con piena libertà di decidere, alla scadenza, se esercitare o meno tale diritto.",

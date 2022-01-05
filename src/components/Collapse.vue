@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>{{soggetto.name}}</h1>
+    <img :src="require( `../assets/${soggetto.img}`)" alt="">
     <div>
       <p>
         <button
@@ -25,7 +26,7 @@
         </button>
       </p>
       <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+        <div class="card card-body shadow-sm">
           <ul>
             <li v-for="vantaggio in soggetto.vantaggi" :key="vantaggio">
               {{ vantaggio }}
@@ -34,7 +35,7 @@
         </div>
       </div>
       <div class="collapse my-3" id="collapseExample2">
-        <div class="card card-body">
+        <div class="card card-body shadow-sm">
           <ul>
             <li v-for="svantaggio in soggetto.svantaggi" :key="svantaggio">
               {{ svantaggio }}
@@ -57,3 +58,16 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+ul{
+  list-style: circle;
+  line-height: 3rem;
+  font-size: 1.3rem;
+  color: #006669;
+  text-align: start;
+}
+.card{
+  border-radius: 1rem !important;
+}
+</style>
