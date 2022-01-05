@@ -76,7 +76,7 @@ button:hover {
 }
 .slide {
   max-height: 100%;
-  min-height: 710px;
+  min-height: 580px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

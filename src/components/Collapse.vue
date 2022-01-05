@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>{{soggetto.name}}</h1>
-    <img width="300" class="img-fluid my-5" :src="require( `../assets/${soggetto.img}`)" alt="">
+    <img width="250" class="img-fluid my-5" :src="require( `../assets/${soggetto.img}`)" alt="">
     <div>
       <p>
         <button
@@ -73,6 +73,6 @@ ul{
 
 .container{
   max-height: 100%;
-  min-height: 750px;
+  min-height: 625px;
 }
 </style>
