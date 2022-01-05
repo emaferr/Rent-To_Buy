@@ -19,7 +19,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img width="350" class="img-fluid my-3" :src="require( `../assets/${slide.img}`)"  alt="">
+          <img width="250" class="img-fluid my-3" :src="require( `../assets/${slide.img}`)"  alt="">
         </div>
       </div>
     </div>
