@@ -10,25 +10,25 @@
             "id": 2,
             "question": "Come funziona?",
             "reply": "Venditore e Compratore firmano un contratto secondo cui l'immobile in questione cambierà propietario, ad una cifra già stabilità, solo dopo un periodo di tempo concordato dalle parti.",
-            "img": "DISEGNO 2"
+            "img": "logo.png"
         },
         {
             "id": 3,
             "question": "Durante questo periodo?",
             "reply": "Il futuro propietario entrerà nell'abitazione in qualità di inquilino e come tale pagherà mensilmente un canone, che sarà composto da due parti",
-            "img": "DISEGNO 3"
+            "img": "home.jpeg"
         },
         {
             "id": 4,
             "question": "Quanto dura il periodo di locazione?",
             "reply": "Varia dai 5 ai 10 anni e scaduto il termine il conduttore avrà la facoltà ma non l'obbligo, di acquistare l'immobile",
-            "img": "DISEGNO 4"
+            "img": "logo.png"
         },
         {
             "id": 5,
             "question": "Se l'inquilino non acquista?",
             "reply": "Perderà l'intera somma versata fino a quel momento e l'affittuario rimane il proprietario unico dell'immobile",
-            "img": "DISEGNO 4"
+            "img": "home.jpeg"
         }
     ],
 
