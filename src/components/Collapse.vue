@@ -73,7 +73,7 @@ ul{
 
 .container{
   max-height: 100%;
-  min-height: 625px;
+  min-height: 540px;
 }
 
 button{
