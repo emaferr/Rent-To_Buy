@@ -11,7 +11,7 @@
     <router-link :to="{ name: 'Lessee' }">Acquirente</router-link>
   </div>
   <router-view />
-  <div class="container_footer px-5">
+  <div class="container_footer px-5 m-auto">
     <footer
       class="
         d-flex

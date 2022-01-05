@@ -19,7 +19,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img width="450" class="img-fluid" :src="require( `../assets/${slide.img}`)"  alt="">
+          <img width="350" class="img-fluid my-3" :src="require( `../assets/${slide.img}`)"  alt="">
         </div>
       </div>
     </div>
@@ -75,7 +75,8 @@ button:hover {
   color: #03989E;
 }
 .slide {
-  height: 67vh;
+  max-height: 100%;
+  min-height: 710px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

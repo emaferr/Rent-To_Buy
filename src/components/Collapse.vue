@@ -70,4 +70,9 @@ ul{
 .card{
   border-radius: 1rem !important;
 }
+
+.container{
+  max-height: 100%;
+  min-height: 750px;
+}
 </style>
