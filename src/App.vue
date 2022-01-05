@@ -11,13 +11,46 @@
     <router-link :to="{ name: 'Lessee' }">Acquirente</router-link>
   </div>
   <router-view />
+  <div class="container_footer px-5">
+    <footer
+      class="
+        d-flex
+        flex-wrap
+        justify-content-between
+        align-items-center
+        py-3
+        my-4
+        border-top
+      "
+    >
+      <p class="col-md-4 mb-0 text-muted">&copy; 2022 Emanuele</p>
+
+      <a
+        href="/"
+        class="
+          col-md-4
+          d-flex
+          align-items-center
+          justify-content-center
+          mb-3 mb-md-0
+          me-md-auto
+          link-dark
+          text-decoration-none
+        "
+      >
+        <svg class="bi me-2" width="40" height="32">
+          <use xlink:href="#bootstrap" />
+        </svg>
+      </a>
+    </footer>
+  </div>
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
 
 #app {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -52,9 +85,11 @@
   transform: scale(0.9);
 }
 
-h1, h2{
+h1,
+h2 {
   font-weight: bold !important;
   color: #006669 !important;
 }
+
 </style>
 

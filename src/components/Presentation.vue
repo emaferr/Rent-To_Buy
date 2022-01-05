@@ -75,7 +75,7 @@ button:hover {
   color: #03989E;
 }
 .slide {
-  height: 72vh;
+  height: 67vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
