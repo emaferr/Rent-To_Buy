@@ -18,7 +18,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img :src="require(slide.img)"  alt="">
+          <img :src="require( `../assets/${slide.img}`)"  alt="">
         </div>
       </div>
     </div>
