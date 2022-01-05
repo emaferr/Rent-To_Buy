@@ -4,7 +4,7 @@
             "id": 1,
             "question": "Cosa è il rent to buy?",
             "reply": "È un metodo alternativo per comprare casa basato su un contratto in cui si fondono Locazione e Compravendita!  ",
-            "img": "home.jpeg"
+            "img": "logo.png"
         },
         {
             "id": 2,
@@ -16,7 +16,7 @@
             "id": 3,
             "question": "Durante questo periodo?",
             "reply": "Il futuro propietario entrerà nell'abitazione in qualità di inquilino e come tale pagherà mensilmente un canone, che sarà composto da due parti",
-            "img": "home.jpeg"
+            "img": "logo.png"
         },
         {
             "id": 4,
@@ -28,7 +28,7 @@
             "id": 5,
             "question": "Se l'inquilino non acquista?",
             "reply": "Perderà l'intera somma versata fino a quel momento e l'affittuario rimane il proprietario unico dell'immobile",
-            "img": "home.jpeg"
+            "img": "logo.png"
         }
     ],
 
