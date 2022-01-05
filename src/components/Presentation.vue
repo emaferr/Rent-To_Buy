@@ -1,7 +1,8 @@
 <template>
+  <h1>Rent to Buy</h1>
   <div
     id="carouselExampleControls"
-    class="carousel slide"
+    class="carousel slide p-1"
     data-bs-interval="false"
     data-ride="carousel"
     data-pause="hover"
@@ -18,7 +19,7 @@
           <p>
             {{ slide.reply }}
           </p>
-          <img :src="require( `../assets/${slide.img}`)"  alt="">
+          <img class="img-fluid" :src="require( `../assets/${slide.img}`)"  alt="">
         </div>
       </div>
     </div>
@@ -71,17 +72,19 @@ button,
 button:focus,
 button:hover {
   font-size: 3rem;
-  color: #42b983;
+  color: #03989E;
 }
 .slide {
-  height: 85vh;
+  height: 72vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 p {
   width: 70%;
+  color: #006669 !important;
+  font-size: 1.3rem;
 }
 </style>
 

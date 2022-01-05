@@ -4,7 +4,7 @@
     <div>
       <p>
         <button
-          class="btn-lessor mx-5"
+          class="btn-lessor me-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseExample"
@@ -14,7 +14,7 @@
           Vantaggi
         </button>
         <button
-          class="btn-lessor mx-5"
+          class="btn-lessor ms-3"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#collapseExample2"

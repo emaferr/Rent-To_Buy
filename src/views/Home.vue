@@ -1,6 +1,5 @@
 <template>
-  <div class="home container">
-    <h1>Rent to Buy</h1>
+  <div class="home">
     <Presentation />
   </div>
 </template>
