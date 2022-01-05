@@ -16,19 +16,19 @@
             "id": 3,
             "question": "Durante questo periodo?",
             "reply": "Il futuro propietario entrerà nell'abitazione in qualità di inquilino e come tale pagherà mensilmente un canone, che sarà composto da due parti",
-            "img": "third_slide.png"
+            "img": "fourth_slide.png"
         },
         {
             "id": 4,
             "question": "Quanto dura il periodo di locazione?",
             "reply": "Varia dai 5 ai 10 anni e scaduto il termine il conduttore avrà la facoltà ma non l'obbligo, di acquistare l'immobile",
-            "img": "fifth_slide.png"
+            "img": "six_slide.png"
         },
         {
             "id": 5,
             "question": "Se l'inquilino non acquista?",
             "reply": "Perderà l'intera somma versata fino a quel momento e l'affittuario rimane il proprietario unico dell'immobile",
-            "img": "fourth_slide.png"
+            "img": "third_slide.png"
         }
     ],
 
